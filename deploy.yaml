@@ -86,7 +86,7 @@
   - name: Build a link to the executable so it becomes a service
     file:
             src: /home/ec2-user/webapp/target/fleetman-0.0.1-SNAPSHOT.war
-            dest: /etc/init.d/microservice
+            dest: /etc/init.d/webapp
             state: link
     become: true
 
